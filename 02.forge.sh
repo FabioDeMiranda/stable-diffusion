@@ -63,6 +63,10 @@ sl_folder ${SD02_DIR}/forge/models LyCORIS ${BASE_DIR}/models lycoris
 sl_folder ${SD02_DIR}/forge/models deepbooru ${BASE_DIR}/models deepbooru
 sl_folder ${SD02_DIR}/forge/models karlo ${BASE_DIR}/models karlo
 sl_folder ${SD02_DIR}/forge/models text_encoder ${BASE_DIR}/models clip
+sl_folder ${SD02_DIR}/forge/models diffusers ${BASE_DIR}/models diffusers
+sl_folder ${SD02_DIR}/forge/models diffusers ${BASE_DIR}/models diffusers
+sl_folder ${SD02_DIR}/forge/models svd ${BASE_DIR}/models svd
+sl_folder ${SD02_DIR}/forge/models z123 ${BASE_DIR}/models z123
 
 sl_folder ${SD02_DIR}/forge/extensions/sd-forge-animatediff model ${BASE_DIR}/models animatediff
 

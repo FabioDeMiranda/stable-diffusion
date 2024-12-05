@@ -77,12 +77,17 @@ sl_folder ${SD05_DIR}/ComfyUI/models t5 ${BASE_DIR}/models t5
 sl_folder ${SD05_DIR}/ComfyUI/models LLM ${BASE_DIR}/models llm
 sl_folder ${SD05_DIR}/ComfyUI/models sams ${BASE_DIR}/models sams
 sl_folder ${SD05_DIR}/ComfyUI/models onnx ${BASE_DIR}/models onnx
+sl_folder ${SD05_DIR}/ComfyUI/models text_encoders ${BASE_DIR}/models clip
+sl_folder ${SD05_DIR}/ComfyUI/models ipadapter ${BASE_DIR}/models controlnet
+sl_folder ${SD05_DIR}/ComfyUI/models gligen ${BASE_DIR}/models gligen
+sl_folder ${SD05_DIR}/ComfyUI/models diffusers ${BASE_DIR}/models diffusers
+
 sl_folder ${SD05_DIR}/ComfyUI/models/ultralytics bbox ${BASE_DIR}/models detectors
 sl_folder ${SD05_DIR}/ComfyUI/models/ultralytics segm ${BASE_DIR}/models detectors
 
 sl_folder ${SD05_DIR}/ComfyUI/custom_nodes/IPAdapter-ComfyUI models ${BASE_DIR}/models controlnet
 
-ln -s "${BASE_DIR}/models/unet/" "${BASE_DIR}/models/checkpoints/"
+ln -s "${SD05_DIR}/models/unet/" "${BASE_DIR}/models/checkpoints/"
 
 #install requirements
 cd ${SD05_DIR}/ComfyUI
