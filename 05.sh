@@ -64,6 +64,7 @@ fi
 sl_folder ${SD05_DIR}/ComfyUI input ${BASE_DIR} inputs
 
 sl_folder ${SD05_DIR}/ComfyUI/models checkpoints ${BASE_DIR}/models checkpoints
+sl_folder ${SD05_DIR}/ComfyUI/models unet ${BASE_DIR}/models checkpoints
 sl_folder ${SD05_DIR}/ComfyUI/models hypernetworks ${BASE_DIR}/models hypernetwork
 sl_folder ${SD05_DIR}/ComfyUI/models loras ${BASE_DIR}/models lora
 sl_folder ${SD05_DIR}/ComfyUI/models vae ${BASE_DIR}/models vae
@@ -87,7 +88,7 @@ sl_folder ${SD05_DIR}/ComfyUI/models/ultralytics segm ${BASE_DIR}/models detecto
 
 sl_folder ${SD05_DIR}/ComfyUI/custom_nodes/IPAdapter-ComfyUI models ${BASE_DIR}/models controlnet
 
-ln -s "${BASE_DIR}/models/checkpoints/" "${SD05_DIR}/ComfyUI/models/unet/"
+#ln -s "${BASE_DIR}/models/checkpoints/" "${SD05_DIR}/ComfyUI/models/unet/"
 
 #install requirements
 cd ${SD05_DIR}/ComfyUI

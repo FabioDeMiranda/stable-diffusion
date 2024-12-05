@@ -78,8 +78,6 @@ sl_folder ${SD02_DIR}/webui/extensions/sd-webui-animatediff model ${BASE_DIR}/mo
 
 sl_folder ${SD02_DIR}/webui outputs ${BASE_DIR}/outputs 02-sd-webui
 
-ln -s "${BASE_DIR}/models/lora/controlnet/" "${BASE_DIR}/models/controlnet/lora/"
-
 # run webUI
 echo "Run Stable-Diffusion-WebUI"
 cd ${SD02_DIR}/webui

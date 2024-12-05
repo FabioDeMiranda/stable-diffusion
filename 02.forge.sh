@@ -72,8 +72,6 @@ sl_folder ${SD02_DIR}/forge/extensions/sd-forge-animatediff model ${BASE_DIR}/mo
 
 sl_folder ${SD02_DIR}/forge outputs ${BASE_DIR}/outputs 02-forge
 
-ln -s "${BASE_DIR}/models/lora/controlnet/" "${BASE_DIR}/models/controlnet/lora/"
-
 # Run webUI
 echo "Run Stable-Diffusion-WebUI-forge"
 cd ${SD02_DIR}/forge
