@@ -71,13 +71,14 @@ sl_folder ${SD02_DIR}/webui/extensions/sd-webui-inpaint-anything models ${BASE_D
 sl_folder ${SD02_DIR}/webui/extensions/sd-webui-segment-anything/models sam ${BASE_DIR}/models sams
 sl_folder ${SD02_DIR}/webui/extensions/sd-webui-segment-anything/models grounding-dino ${BASE_DIR}/models grounding-dino
 
+sl_folder ${SD02_DIR}/webui/extensions/sd-webui-controlnet models ${BASE_DIR}/models controlnet
 sl_folder ${SD02_DIR}/webui/extensions/sd-webui-controlnet/annotator/downloads clip_vision ${BASE_DIR}/models clip_vision
 
 sl_folder ${SD02_DIR}/webui/extensions/sd-webui-animatediff model ${BASE_DIR}/models animatediff
 
 sl_folder ${SD02_DIR}/webui outputs ${BASE_DIR}/outputs 02-sd-webui
 
-ln -s "${BASE_DIR}/models/controlnet/lora/" "${BASE_DIR}/models/lora/controlnet/"
+ln -s "${BASE_DIR}/models/lora/controlnet/" "${BASE_DIR}/models/controlnet/lora/"
 
 # run webUI
 echo "Run Stable-Diffusion-WebUI"
