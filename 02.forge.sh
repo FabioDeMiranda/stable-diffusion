@@ -62,6 +62,9 @@ sl_folder ${SD02_DIR}/forge/models adetailer ${BASE_DIR}/models detectors
 sl_folder ${SD02_DIR}/forge/models LyCORIS ${BASE_DIR}/models lycoris
 sl_folder ${SD02_DIR}/forge/models deepbooru ${BASE_DIR}/models deepbooru
 sl_folder ${SD02_DIR}/forge/models karlo ${BASE_DIR}/models karlo
+sl_folder ${SD02_DIR}/forge/models text_encoder ${BASE_DIR}/models clip
+
+sl_folder ${SD02_DIR}/forge/extensions/sd-forge-animatediff model ${BASE_DIR}/models animatediff
 
 sl_folder ${SD02_DIR}/forge outputs ${BASE_DIR}/outputs 02-forge
 

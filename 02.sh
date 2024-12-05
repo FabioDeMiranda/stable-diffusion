@@ -64,6 +64,7 @@ sl_folder ${SD02_DIR}/webui/models adetailer ${BASE_DIR}/models detectors
 sl_folder ${SD02_DIR}/webui/models LyCORIS ${BASE_DIR}/models lycoris
 sl_folder ${SD02_DIR}/webui/models deepbooru ${BASE_DIR}/models deepbooru
 sl_folder ${SD02_DIR}/webui/models karlo ${BASE_DIR}/models karlo
+sl_folder ${SD02_DIR}/webui/models text_encoder ${BASE_DIR}/models clip
 
 sl_folder ${SD02_DIR}/webui/extensions/sd-webui-inpaint-anything models ${BASE_DIR}/models sams
 
