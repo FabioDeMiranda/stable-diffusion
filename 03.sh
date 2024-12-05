@@ -53,6 +53,9 @@ if [ -f ${SD03_DIR}/requirements.txt ]; then
     pip install -r ${SD03_DIR}/requirements.txt
 fi
 
+# Merge Models, vae, lora, and hypernetworks, and outputs
+# Ignore move errors if they occur
+
 # launch WebUI
 invokeai-web --config ${SD03_DIR}/config.yaml
 wait 99999

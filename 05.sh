@@ -61,7 +61,9 @@ if [ -d ${SD05_DIR}/venv ]; then
 fi
 
 # Merge Models, vae, lora, hypernetworks, and outputs
-sl_folder ${SD05_DIR}/ComfyUI/models checkpoints ${BASE_DIR}/models stable-diffusion
+sl_folder ${SD05_DIR}/ComfyUI input ${BASE_DIR} inputs
+
+sl_folder ${SD05_DIR}/ComfyUI/models checkpoints ${BASE_DIR}/models checkpoints
 sl_folder ${SD05_DIR}/ComfyUI/models hypernetworks ${BASE_DIR}/models hypernetwork
 sl_folder ${SD05_DIR}/ComfyUI/models loras ${BASE_DIR}/models lora
 sl_folder ${SD05_DIR}/ComfyUI/models vae ${BASE_DIR}/models vae
@@ -72,9 +74,15 @@ sl_folder ${SD05_DIR}/ComfyUI/models clip_vision ${BASE_DIR}/models clip_vision
 sl_folder ${SD05_DIR}/ComfyUI/models clip ${BASE_DIR}/models clip
 sl_folder ${SD05_DIR}/ComfyUI/models controlnet ${BASE_DIR}/models controlnet
 sl_folder ${SD05_DIR}/ComfyUI/models t5 ${BASE_DIR}/models t5
-sl_folder ${SD05_DIR}/ComfyUI/models unet ${BASE_DIR}/models unet
+sl_folder ${SD05_DIR}/ComfyUI/models LLM ${BASE_DIR}/models llm
+sl_folder ${SD05_DIR}/ComfyUI/models sams ${BASE_DIR}/models sams
+sl_folder ${SD05_DIR}/ComfyUI/models onnx ${BASE_DIR}/models onnx
+sl_folder ${SD05_DIR}/ComfyUI/models/ultralytics bbox ${BASE_DIR}/models detectors
+sl_folder ${SD05_DIR}/ComfyUI/models/ultralytics segm ${BASE_DIR}/models detectors
 
+sl_folder ${SD05_DIR}/ComfyUI/custom_nodes/IPAdapter-ComfyUI models ${BASE_DIR}/models controlnet
 
+ln -s "${BASE_DIR}/models/unet/" "${BASE_DIR}/models/checkpoints/"
 
 #install requirements
 cd ${SD05_DIR}/ComfyUI

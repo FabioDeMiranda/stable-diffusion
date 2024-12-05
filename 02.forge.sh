@@ -47,10 +47,11 @@ fi
 # Ignore move errors if they occur
 sl_folder ${SD02_DIR}/forge embeddings ${BASE_DIR}/models embeddings
 
-sl_folder ${SD02_DIR}/forge/models Stable-diffusion ${BASE_DIR}/models stable-diffusion
+sl_folder ${SD02_DIR}/forge/models Stable-diffusion ${BASE_DIR}/models checkpoints
 sl_folder ${SD02_DIR}/forge/models hypernetworks ${BASE_DIR}/models hypernetwork
 sl_folder ${SD02_DIR}/forge/models Lora ${BASE_DIR}/models lora
 sl_folder ${SD02_DIR}/forge/models VAE ${BASE_DIR}/models vae
+sl_folder ${SD02_DIR}/forge/models VAE-approx ${BASE_DIR}/models vae_approx
 sl_folder ${SD02_DIR}/forge/models ESRGAN ${BASE_DIR}/models upscale
 sl_folder ${SD02_DIR}/forge/models BLIP ${BASE_DIR}/models blip
 sl_folder ${SD02_DIR}/forge/models Codeformer ${BASE_DIR}/models codeformer
@@ -59,6 +60,8 @@ sl_folder ${SD02_DIR}/forge/models LDSR ${BASE_DIR}/models ldsr
 sl_folder ${SD02_DIR}/forge/models ControlNet ${BASE_DIR}/models controlnet
 sl_folder ${SD02_DIR}/forge/models adetailer ${BASE_DIR}/models detectors
 sl_folder ${SD02_DIR}/forge/models LyCORIS ${BASE_DIR}/models lycoris
+sl_folder ${SD02_DIR}/forge/models deepbooru ${BASE_DIR}/models deepbooru
+sl_folder ${SD02_DIR}/forge/models karlo ${BASE_DIR}/models karlo
 
 sl_folder ${SD02_DIR}/forge outputs ${BASE_DIR}/outputs 02-forge
 
