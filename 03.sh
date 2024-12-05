@@ -55,7 +55,7 @@ fi
 
 # Merge Models, vae, lora, and hypernetworks, and outputs
 # Ignore move errors if they occur
-#sl_folder ${SD03_DIR}/invokeai models ${BASE_DIR}/models invokeai
+sl_folder ${SD03_DIR}/invokeai models ${BASE_DIR} models-invokeai
 
 # launch WebUI
 invokeai-web --config ${SD03_DIR}/config.yaml
