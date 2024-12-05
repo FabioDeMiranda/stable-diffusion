@@ -47,19 +47,32 @@ fi
 
 # Merge Models, vae, lora, and hypernetworks, and outputs
 # Ignore move errors if they occur
+sl_folder ${SD02_DIR}/webui embeddings ${BASE_DIR}/models embeddings
+
 sl_folder ${SD02_DIR}/webui/models Stable-diffusion ${BASE_DIR}/models stable-diffusion
 sl_folder ${SD02_DIR}/webui/models hypernetworks ${BASE_DIR}/models hypernetwork
 sl_folder ${SD02_DIR}/webui/models Lora ${BASE_DIR}/models lora
 sl_folder ${SD02_DIR}/webui/models VAE ${BASE_DIR}/models vae
-sl_folder ${SD02_DIR}/webui embeddings ${BASE_DIR}/models embeddings
 sl_folder ${SD02_DIR}/webui/models ESRGAN ${BASE_DIR}/models upscale
 sl_folder ${SD02_DIR}/webui/models BLIP ${BASE_DIR}/models blip
 sl_folder ${SD02_DIR}/webui/models Codeformer ${BASE_DIR}/models codeformer
 sl_folder ${SD02_DIR}/webui/models GFPGAN ${BASE_DIR}/models gfpgan
 sl_folder ${SD02_DIR}/webui/models LDSR ${BASE_DIR}/models ldsr
 sl_folder ${SD02_DIR}/webui/models ControlNet ${BASE_DIR}/models controlnet
+sl_folder ${SD02_DIR}/webui/models adetailer ${BASE_DIR}/models detectors
+sl_folder ${SD02_DIR}/webui/models LyCORIS ${BASE_DIR}/models lycoris
+
+sl_folder ${SD02_DIR}/webui/extensions/sd-webui-inpaint-anything models ${BASE_DIR}/models sams
+sl_folder ${SD02_DIR}/webui/extensions/sd-webui-inpaint-anything/models sam ${BASE_DIR}/models sams
+sl_folder ${SD02_DIR}/webui/extensions/sd-webui-inpaint-anything/models grounding-dino ${BASE_DIR}/models grounding-dino
+
+sl_folder ${SD02_DIR}/webui/extensions/sd-webui-controlnet/annotator/downloads clip_vision ${BASE_DIR}/models clip_vision
+
+sl_folder ${SD02_DIR}/webui/extensions/sd-webui-animatediff model ${BASE_DIR}/models animatediff
 
 sl_folder ${SD02_DIR}/webui outputs ${BASE_DIR}/outputs 02-sd-webui
+
+ln -s "${BASE_DIR}/models/controlnet/lora/" "${BASE_DIR}/models/lora/controlnet/"
 
 # run webUI
 echo "Run Stable-Diffusion-WebUI"

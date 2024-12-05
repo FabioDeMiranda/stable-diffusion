@@ -14,6 +14,7 @@ allow_headers:
 log_tokenization: false
 patchmatch: true
 models_dir: models
+download_cache_dir: models
 convert_cache_dir: models/.cache
 legacy_conf_dir: configs
 db_dir: databases

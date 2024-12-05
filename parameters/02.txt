@@ -4,12 +4,16 @@
 
 # options
 --enable-insecure-extension-access
---medvram
---xformers
+#--medvram
+#--xformers
 --api
 
-#--no-half-vae
+--opt-sdp-attention
+--disable-safe-unpickle
+--no-half-vae
+#--no-half
+--precision autocast
 #--disable-nan-check
 #--update-all-extensions
 #--reinstall-xformers
-#--reinstall-torch 
+#--reinstall-torch
