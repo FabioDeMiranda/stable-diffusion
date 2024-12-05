@@ -87,7 +87,7 @@ sl_folder ${SD05_DIR}/ComfyUI/models/ultralytics segm ${BASE_DIR}/models detecto
 
 sl_folder ${SD05_DIR}/ComfyUI/custom_nodes/IPAdapter-ComfyUI models ${BASE_DIR}/models controlnet
 
-ln -s "${SD05_DIR}/models/unet/" "${BASE_DIR}/models/checkpoints/"
+ln -s "${SD05_DIR}/ComfyUI/models/unet/" "${BASE_DIR}/models/checkpoints/"
 
 #install requirements
 cd ${SD05_DIR}/ComfyUI
