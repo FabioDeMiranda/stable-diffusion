@@ -57,8 +57,8 @@ sl_folder ${SD02_DIR}/webui/models VAE-approx ${BASE_DIR}/models vae_approx
 sl_folder ${SD02_DIR}/webui/models ESRGAN ${BASE_DIR}/models upscale
 sl_folder ${SD02_DIR}/webui/models BLIP ${BASE_DIR}/models blip
 sl_folder ${SD02_DIR}/webui/models Codeformer ${BASE_DIR}/models codeformer
-sl_folder ${SD02_DIR}/webui/models GFPGAN ${BASE_DIR}/models gfpgan
-sl_folder ${SD02_DIR}/webui/models LDSR ${BASE_DIR}/models ldsr
+sl_folder ${SD02_DIR}/webui/models GFPGAN ${BASE_DIR}/models upscale
+sl_folder ${SD02_DIR}/webui/models LDSR ${BASE_DIR}/models upscale
 sl_folder ${SD02_DIR}/webui/models ControlNet ${BASE_DIR}/models controlnet
 sl_folder ${SD02_DIR}/webui/models adetailer ${BASE_DIR}/models detectors
 sl_folder ${SD02_DIR}/webui/models LyCORIS ${BASE_DIR}/models lycoris

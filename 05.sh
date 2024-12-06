@@ -74,7 +74,7 @@ sl_folder ${SD05_DIR}/ComfyUI/models upscale_models ${BASE_DIR}/models upscale
 sl_folder ${SD05_DIR}/ComfyUI/models clip_vision ${BASE_DIR}/models clip_vision
 sl_folder ${SD05_DIR}/ComfyUI/models clip ${BASE_DIR}/models clip
 sl_folder ${SD05_DIR}/ComfyUI/models controlnet ${BASE_DIR}/models controlnet
-sl_folder ${SD05_DIR}/ComfyUI/models t5 ${BASE_DIR}/models t5
+sl_folder ${SD05_DIR}/ComfyUI/models t5 ${BASE_DIR}/models clip
 sl_folder ${SD05_DIR}/ComfyUI/models LLM ${BASE_DIR}/models llm
 sl_folder ${SD05_DIR}/ComfyUI/models sams ${BASE_DIR}/models sams
 sl_folder ${SD05_DIR}/ComfyUI/models onnx ${BASE_DIR}/models onnx
