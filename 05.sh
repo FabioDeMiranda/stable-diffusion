@@ -82,6 +82,9 @@ sl_folder ${SD05_DIR}/ComfyUI/models text_encoders ${BASE_DIR}/models clip
 sl_folder ${SD05_DIR}/ComfyUI/models ipadapter ${BASE_DIR}/models controlnet
 sl_folder ${SD05_DIR}/ComfyUI/models gligen ${BASE_DIR}/models gligen
 sl_folder ${SD05_DIR}/ComfyUI/models diffusers ${BASE_DIR}/models diffusers
+sl_folder ${SD05_DIR}/ComfyUI/models diffusion_models ${BASE_DIR}/models diffusion_models
+sl_folder ${SD05_DIR}/ComfyUI/models photomaker ${BASE_DIR}/models photomaker
+sl_folder ${SD05_DIR}/ComfyUI/models style_models ${BASE_DIR}/models style_models
 
 sl_folder ${SD05_DIR}/ComfyUI/models/ultralytics bbox ${BASE_DIR}/models detectors
 sl_folder ${SD05_DIR}/ComfyUI/models/ultralytics segm ${BASE_DIR}/models detectors
