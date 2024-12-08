@@ -55,10 +55,11 @@ sl_folder ${SD22_DIR}/forge/models Lora ${BASE_DIR}/models lora
 sl_folder ${SD22_DIR}/forge/models VAE ${BASE_DIR}/models vae
 sl_folder ${SD22_DIR}/forge/models VAE-approx ${BASE_DIR}/models vae_approx
 sl_folder ${SD22_DIR}/forge/models ESRGAN ${BASE_DIR}/models upscale
-sl_folder ${SD22_DIR}/forge/models BLIP ${BASE_DIR}/models blip
-sl_folder ${SD22_DIR}/forge/models Codeformer ${BASE_DIR}/models codeformer
 sl_folder ${SD22_DIR}/forge/models GFPGAN ${BASE_DIR}/models upscale
 sl_folder ${SD22_DIR}/forge/models LDSR ${BASE_DIR}/models upscale
+sl_folder ${SD22_DIR}/forge/models RealESRGAN ${BASE_DIR}/models upscale
+sl_folder ${SD22_DIR}/forge/models BLIP ${BASE_DIR}/models blip
+sl_folder ${SD22_DIR}/forge/models Codeformer ${BASE_DIR}/models codeformer
 sl_folder ${SD22_DIR}/forge/models ControlNet ${BASE_DIR}/models controlnet
 sl_folder ${SD22_DIR}/forge/models adetailer ${BASE_DIR}/models detectors
 sl_folder ${SD22_DIR}/forge/models LyCORIS ${BASE_DIR}/models lycoris
