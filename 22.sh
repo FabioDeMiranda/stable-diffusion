@@ -70,7 +70,7 @@ sl_folder ${SD22_DIR}/forge/models diffusers ${BASE_DIR}/models diffusers
 sl_folder ${SD22_DIR}/forge/models diffusers ${BASE_DIR}/models diffusers
 sl_folder ${SD22_DIR}/forge/models svd ${BASE_DIR}/models svd
 sl_folder ${SD22_DIR}/forge/models z123 ${BASE_DIR}/models z123
-sl_folder ${SD22_DIR}/forge/models insightface ${BASE_DIR}/models insightface
+sl_folder ${SD22_DIR}/forge/models insightface ${BASE_DIR}/models/clip_vision insightface
 
 sl_folder ${SD22_DIR}/forge/extensions/sd-forge-animatediff model ${BASE_DIR}/models animatediff
 
