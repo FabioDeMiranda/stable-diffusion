@@ -40,6 +40,7 @@ fi
 
 # install custom requirements
 pip install --upgrade pip
+pip install insightface
 
 if [ -f ${SD02_DIR}/requirements.txt ]; then
     pip install -r ${SD02_DIR}/requirements.txt

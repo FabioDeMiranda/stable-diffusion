@@ -38,9 +38,10 @@ fi
 
 #install custom requirements 
 pip install --upgrade pip
+pip install insightface
 
-if [ -f ${SD22_DIR}/requirements.txt ]; then
-    pip install -r ${SD22_DIR}/requirements.txt
+if [ -f ${SD22_DIR}/requirements_versions.txt ]; then
+    pip install -r ${SD22_DIR}/requirements_versions.txt
 fi
 
 # Merge Models, vae, lora, and hypernetworks, and outputs
