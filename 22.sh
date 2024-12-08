@@ -38,7 +38,8 @@ fi
 
 #install custom requirements 
 pip install --upgrade pip
-pip install insightface
+pip install insightface==0.7.3
+pip install onnxruntime-gpu==1.18.0
 
 if [ -f ${SD22_DIR}/requirements_versions.txt ]; then
     pip install -r ${SD22_DIR}/requirements_versions.txt
