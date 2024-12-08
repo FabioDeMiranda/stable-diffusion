@@ -37,7 +37,7 @@ services:
     container_name: stable-diffusion-forge
     environment:
       <<: *default-environment
-      WEBUI_VERSION: '02.forge'
+      WEBUI_VERSION: '22'
     ports:
       - ${FORGE_PORT:-9022}:9000/tcp
 

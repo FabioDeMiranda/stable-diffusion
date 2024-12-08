@@ -70,7 +70,7 @@ sl_folder ${SD22_DIR}/forge/models z123 ${BASE_DIR}/models z123
 
 sl_folder ${SD22_DIR}/forge/extensions/sd-forge-animatediff model ${BASE_DIR}/models animatediff
 
-sl_folder ${SD22_DIR}/forge outputs ${BASE_DIR}/outputs 22-forge
+sl_folder ${SD22_DIR}/forge outputs ${BASE_DIR}/outputs 22-sd-forge
 
 # Run webUI
 echo "Run Stable-Diffusion-WebUI-forge"
