@@ -75,7 +75,7 @@ sl_folder ${SD02_DIR}/webui/extensions/sd-webui-segment-anything/models sam ${BA
 sl_folder ${SD02_DIR}/webui/extensions/sd-webui-segment-anything/models grounding-dino ${BASE_DIR}/models grounding-dino
 
 sl_folder ${SD02_DIR}/webui/extensions/sd-webui-controlnet models ${BASE_DIR}/models controlnet
-sl_folder ${SD02_DIR}/webui/extensions/sd-webui-controlnet/annotator/downloads clip_vision ${BASE_DIR}/models clip_vision
+sl_folder ${SD02_DIR}/webui/extensions/sd-webui-controlnet/annotator/downloads clip_vision ${BASE_DIR}/models clip
 
 sl_folder ${SD02_DIR}/webui/extensions/sd-webui-animatediff model ${BASE_DIR}/models animatediff
 

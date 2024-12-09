@@ -71,7 +71,7 @@ sl_folder ${SD05_DIR}/ComfyUI/models vae ${BASE_DIR}/models vae
 sl_folder ${SD05_DIR}/ComfyUI/models vae_approx ${BASE_DIR}/models vae_approx
 sl_folder ${SD05_DIR}/ComfyUI/models embeddings ${BASE_DIR}/models embeddings
 sl_folder ${SD05_DIR}/ComfyUI/models upscale_models ${BASE_DIR}/models upscale
-sl_folder ${SD05_DIR}/ComfyUI/models clip_vision ${BASE_DIR}/models clip_vision
+sl_folder ${SD05_DIR}/ComfyUI/models clip_vision ${BASE_DIR}/models clip
 sl_folder ${SD05_DIR}/ComfyUI/models clip ${BASE_DIR}/models clip
 sl_folder ${SD05_DIR}/ComfyUI/models controlnet ${BASE_DIR}/models controlnet
 sl_folder ${SD05_DIR}/ComfyUI/models t5 ${BASE_DIR}/models clip
