@@ -60,7 +60,7 @@ sl_folder ${SD02_DIR}/webui/models BLIP ${BASE_DIR}/models blip
 sl_folder ${SD02_DIR}/webui/models Codeformer ${BASE_DIR}/models codeformer
 sl_folder ${SD02_DIR}/webui/models GFPGAN ${BASE_DIR}/models/upscale GFPGAN
 sl_folder ${SD02_DIR}/webui/models LDSR ${BASE_DIR}/models/upscale LDSR
-sl_folder ${SD02_DIR}/webui/models RealESRGAN ${BASE_DIR}/models/upscale
+sl_folder ${SD02_DIR}/webui/models RealESRGAN ${BASE_DIR}/models/upscale RealESRGAN
 sl_folder ${SD02_DIR}/webui/models ESRGAN ${BASE_DIR}/models/upscale RealESRGAN
 sl_folder ${SD02_DIR}/webui/models ControlNet ${BASE_DIR}/models controlnet
 sl_folder ${SD02_DIR}/webui/models adetailer ${BASE_DIR}/models detectors
